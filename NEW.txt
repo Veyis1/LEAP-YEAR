@@ -1,0 +1,13 @@
+# githup a repostery yapiyoruz
+#gregorian takvimi 
+artik = int(input("Enter year:  "))
+a = (artik % 4) 
+b = (artik % 100) 
+c = (artik % 400)
+print(a, b,c)
+a1 = bool(a)
+b1 = bool(b)
+c1 = bool(c)
+print(a1, b1, c1)
+jj = a1 and b1 or c1
+print(bool(jj))
